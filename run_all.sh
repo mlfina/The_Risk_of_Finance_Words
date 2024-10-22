@@ -10,7 +10,7 @@ python ./code/data_processing/data_beta.py > ./data/output/data_processing/data_
 python ./code/data_processing/data_idvol_sysvol.py > ./data/output/data_processing/data_idvol_sysvol.log.txt
 
 
-## Step1: Estimate robust MNIR and structure output 
+## Step1: estimate robust MNIR and structure output 
 Rstript ./code/dictionaries/unigrams.R > ./data/output/dictionaries/unigrams.log.txt
 
 ## Step2: set cutoff and construct volatility dictionareis
